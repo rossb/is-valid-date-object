@@ -1,4 +1,4 @@
-function isValidDateObj(date) {
+function isValidDate(date) {
 
   let invalid = !(date instanceof Date)
 			|| Object.prototype.toString.call(date) !== '[object Date]'
@@ -10,4 +10,4 @@ function isValidDateObj(date) {
 
 }
 
-module.exports = isValidDateObj;
+module.exports = isValidDate;
