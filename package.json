@@ -4,7 +4,7 @@
   "description": "Returns true when passed a Date object with a value other than 'Invalid Date'. Returns false otherwise.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Ross Barnes <r@rossb.biz>",
   "license": "ISC",
