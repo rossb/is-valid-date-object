@@ -1,6 +1,6 @@
 {
   "name": "is-valid-date-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns true when passed a Date object with a value other than 'Invalid Date'. Returns false otherwise.",
   "main": "index.js",
   "scripts": {
