@@ -1,7 +1,7 @@
 {
   "name": "is-valid-date-obj",
   "version": "1.0.0",
-  "description": "Returns true when passed Date object with valid value, false otherwise.",
+  "description": "Returns true for a Date object with a valid value, false otherwise.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

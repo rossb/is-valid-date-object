@@ -1,24 +1,24 @@
-# is-valid-date
+# is-valid-date-obj
 
 Returns true when passed Date object with valid value. Returns descriptive error otherwise.
 
 ## Install
 
 ```sh
-$ npm install is-valid-date --save
+$ npm install is-valid-date-obj --save
 ```
 
 ## Usage
 
 ```js
-const IsValidDate = require('is-valid-date');
+const IsValidDateObj = require('is-valid-date-obj');
 
-IsValidDate( new Date() );
-// truew
+IsValidDateObj( new Date() );
+// true
 
-IsValidDate( '13 December 2001' );
-// Error: Not a date object.
+IsValidDateObj( new Date('not a date string') );
+// false
 
-IsValidDate( new Date(undefined) );
-// Error: Invalid date supplied.
+IsValidDateObj('13 December 2001');
+// false
 ```
