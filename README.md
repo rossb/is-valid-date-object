@@ -1,6 +1,6 @@
 # is-valid-date-object
 
-Returns true when passed Date object with valid value. Returns descriptive error otherwise.
+Returns true when passed a Date object with a value other than 'Invalid Date'. Returns false otherwise.
 
 ## Install
 

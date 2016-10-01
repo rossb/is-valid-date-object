@@ -1,7 +1,7 @@
 {
   "name": "is-valid-date-object",
   "version": "1.0.0",
-  "description": "Returns true for a Date object with a value other than 'Invalid Date', false otherwise.",
+  "description": "Returns true when passed a Date object with a value other than 'Invalid Date'. Returns false otherwise.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
