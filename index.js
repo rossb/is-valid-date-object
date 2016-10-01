@@ -1,20 +1,10 @@
 function isValidDateObj(date) {
 
-	let type = Object.prototype.toString.call(val);
+  let invalid = !(date instanceof Date)
+			|| Object.prototype.toString.call(date) !== '[object Date]'
+			|| date.toString() === 'Invalid Date';
 
-  if (!(date instanceof Date) || type !== '[object Date]') {
-
-		// not a Date object
-		return false;
-
-  }
-
-	if (date.toString() === 'Invalid Date') {
-
-		// Date object with value 'Invalid Date'
-		return false;
-
-	}
+	if (invalid) return false;
 
 	return true;
 
